@@ -1,0 +1,47 @@
+﻿生成启动时间为 2013/11/17 13:44:20。
+     1>项目“C:\Users\luyifan1993\Desktop\MiniSqlTest\MiniSqlTest\MiniSqlTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Parser.cpp
+         Parser.cpp
+     1>c:\users\luyifan1993\desktop\minisqltest\minisqltest\Macro.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\luyifan1993\desktop\minisqltest\minisqltest\Attribute.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\luyifan1993\desktop\minisqltest\minisqltest\tableforlyf.h(19): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(96): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(149): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(227): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(269): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(272): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(308): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(379): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(431): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(503): warning C4018: “<”: 有符号/无符号不匹配
+     1>Parser.cpp(510): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\luyifan1993\Desktop\MiniSqlTest\Release\MiniSqlTest.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\luyifan1993\Desktop\MiniSqlTest\Release\MiniSqlTest.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\luyifan1993\Desktop\MiniSqlTest\Release\MiniSqlTest.lib" /MACHINE:X86 /SAFESEH Release\Attribute.obj
+         Release\Block.obj
+         Release\BufferManager.obj
+         Release\Executor.obj
+         Release\indexManager.obj
+         Release\IndexRecord.obj
+         Release\Macro.obj
+         Release\main.obj
+         Release\Parser.obj
+         Release\RecordManager.obj
+         Release\Table.obj
+         Release\tableforlyf.obj
+         Release\TableRecord.obj
+         正在生成代码
+     1>c:\users\luyifan1993\desktop\minisqltest\minisqltest\tableforlyf.h(22): warning C4715: “tableforlyf::Get_Table”: 不是所有的控件路径都返回值
+     1>c:\users\luyifan1993\desktop\minisqltest\minisqltest\tableforlyf.cpp(50): warning C4715: “tableforlyf::myselectedtolyfselected”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         MiniSqlTest.vcxproj -> C:\Users\luyifan1993\Desktop\MiniSqlTest\Release\MiniSqlTest.exe
+     1>已完成生成项目“C:\Users\luyifan1993\Desktop\MiniSqlTest\MiniSqlTest\MiniSqlTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.69

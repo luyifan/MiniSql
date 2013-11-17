@@ -1,0 +1,58 @@
+/测试创建表
+create table jb{
+qq int,
+ww float,
+ee char(8),
+ff int unique,
+tt float unique,
+primary key (ww)
+};
+
+/测试创建表时已存在表
+create table jb{
+qq int,
+we float,
+primary key (we)
+};
+
+/测试创建表时未加主键
+create table j{
+qq int,
+we float
+};
+
+/测试创建索引
+create index jbb on jb (tt);
+
+/测试创建索引所依据表不存在
+create index jbx on jj (tt);
+
+/测试创建索引所依据表的列不存在
+create index jbc on jb (ttt);
+
+/测试插入
+insert into jb values(1, 23.198, 'qunide', 56, 32.14);
+
+insert into jb values(1, 23.198, 'quni', 1, 32.1);
+insert into jb values(1, 23.198, 'qunie', 2, 32.33);
+insert into jb values(123, 23.198, 'qide', 55, 32.44);
+
+/测试选择
+select qq, ww 
+from jb 
+where ff=1 and tt>=1.0 and ee!='qusiba';
+
+/测试选择时条件中数据类型不符
+select qq, ww 
+from jb 
+where ff=1.36 and tt>=1.0 and ee!='qusiba';
+
+/测试插入时数据类型不符
+insert into jb values(123.34, 23.198, 'qunide', 56, 32.14);
+
+/测试删除
+delete from jb 
+where qq=1;
+
+/测试删除索引
+drop index jbb;
